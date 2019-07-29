@@ -1,6 +1,6 @@
 {
   "name": "lepton-bin",
-  "version": "1.2.2-alpha.0",
+  "version": "1.2.1",
   "description": "lepton wrapper that makes it seamlessly available as a local dependency",
   "main": "index.js",
   "dependencies": {
