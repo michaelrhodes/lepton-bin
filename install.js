@@ -7,7 +7,7 @@ build()
   .src('https://github.com/dropbox/lepton/archive/' + pkg.version + '.tar.gz')
   .cmd('cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/ .')
   .cmd('make -j' + os.cpus().length)
-	.cmd('make DESTDIR=' + __dirname + ' install')
+  .cmd('make DESTDIR=' + __dirname + ' install')
   .run(function (err) {
     if (err) return console.error(err)
   })
